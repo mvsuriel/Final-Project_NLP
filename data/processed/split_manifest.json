@@ -1,0 +1,24 @@
+{
+  "dataset": "sai1908/Mental_Health_Condition_Classification",
+  "revision": "186902250e947738f5cb6668808431c56f75b018",
+  "seed": 42,
+  "cleaning": {
+    "rows_raw": 103488,
+    "rows_clean": 100109
+  },
+  "sizes": {
+    "train": 64069,
+    "val": 16018,
+    "test": 20022
+  },
+  "test_per_class": {
+    "anxiety": 3338,
+    "normal": 3194,
+    "depression": 3004,
+    "stress": 2974,
+    "personality disorder": 2707,
+    "bipolar": 2689,
+    "suicidal": 2116
+  },
+  "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+}

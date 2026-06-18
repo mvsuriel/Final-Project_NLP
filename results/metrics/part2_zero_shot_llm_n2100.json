@@ -1,0 +1,85 @@
+{
+  "name": "part2_zero_shot_llm_n2100",
+  "n": 2100,
+  "accuracy": 0.7233333333333334,
+  "macro_f1": 0.7350286752601896,
+  "weighted_f1": 0.7396576600953736,
+  "kappa": 0.7001857335520811,
+  "per_class": {
+    "anxiety": {
+      "precision": 0.8463687150837989,
+      "recall": 0.8657142857142858,
+      "f1": 0.8559322033898306,
+      "support": 350
+    },
+    "bipolar": {
+      "precision": 0.9289617486338798,
+      "recall": 0.6028368794326241,
+      "f1": 0.7311827956989247,
+      "support": 282
+    },
+    "depression": {
+      "precision": 0.4380952380952381,
+      "recall": 0.5841269841269842,
+      "f1": 0.5006802721088436,
+      "support": 315
+    },
+    "normal": {
+      "precision": 0.9315068493150684,
+      "recall": 0.608955223880597,
+      "f1": 0.7364620938628159,
+      "support": 335
+    },
+    "personality disorder": {
+      "precision": 0.9262295081967213,
+      "recall": 0.795774647887324,
+      "f1": 0.8560606060606061,
+      "support": 284
+    },
+    "stress": {
+      "precision": 0.7683923705722071,
+      "recall": 0.9038461538461539,
+      "f1": 0.8306332842415317,
+      "support": 312
+    },
+    "suicidal": {
+      "precision": 0.5976095617529881,
+      "recall": 0.6756756756756757,
+      "f1": 0.6342494714587738,
+      "support": 222
+    }
+  },
+  "accuracy_ci95": [
+    0.7057142857142857,
+    0.741904761904762
+  ],
+  "macro_f1_ci95": [
+    0.7180221217505488,
+    0.7528717924517582
+  ],
+  "model": "google/gemma-3-4b-it",
+  "model_revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+  "transformers_version": "5.10.2",
+  "prompt_hash": "3a21817c83c1",
+  "prompt_candidate": "v2_direct",
+  "prompt_format": "direct",
+  "candidate_dev_scores": {
+    "v1_direct": 0.6428571428571429,
+    "v1_cot": 0.6224489795918368,
+    "v2_direct": 0.6887755102040817,
+    "v2_cot": 0.6632653061224489
+  },
+  "decoding": "greedy",
+  "n_subset": 2100,
+  "subsample_ids_sha256": "efa3a4ff35b6502274f815cc303278351d0cabac840fb7f0dc40c20f6c939e29",
+  "n_refused": 58,
+  "refusal_rate": 0.02761904761904762,
+  "prompt_dev_val_n": 196,
+  "prompt_dev_val_ids_sha256": "269202591f65d7b6327e12feb45c22b51fed71d91c90d81285fdef3156ad5089",
+  "provenance": {
+    "computed_at": "2026-06-18T20:33:36+00:00",
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018",
+    "split_seed": 42,
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

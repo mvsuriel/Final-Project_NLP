@@ -1,0 +1,16 @@
+{
+  "run_name": "part3_bert_pct1_seed42",
+  "seed": 42,
+  "n_train_rows": 641,
+  "total_steps": 63,
+  "warmup_steps": 6,
+  "final_loss": 1.6958804321289063,
+  "loss_history": [
+    1.6958804321289063
+  ],
+  "val_class_spread": 7,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.10.2",
+  "accelerate": "1.13.0",
+  "csv_path": "/content/drive/MyDrive/BSE/NLP-PROJECT/results/colab_runs/part3_bert_pct1_seed42.csv"
+}

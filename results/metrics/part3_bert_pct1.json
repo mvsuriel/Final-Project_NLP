@@ -1,0 +1,96 @@
+{
+  "name": "part3_bert_pct1",
+  "n": 20022,
+  "accuracy": 0.6117770452502248,
+  "macro_f1": 0.5526871563312039,
+  "weighted_f1": 0.5738963179880218,
+  "kappa": 0.5425717394641025,
+  "per_class": {
+    "anxiety": {
+      "precision": 0.7014028056112225,
+      "recall": 0.4194128220491312,
+      "f1": 0.5249343832020997,
+      "support": 3338
+    },
+    "bipolar": {
+      "precision": 0.8845561826577732,
+      "recall": 0.6411305317962067,
+      "f1": 0.7434238896075894,
+      "support": 2689
+    },
+    "depression": {
+      "precision": 0.4660275114631096,
+      "recall": 0.7443408788282291,
+      "f1": 0.5731863624711613,
+      "support": 3004
+    },
+    "normal": {
+      "precision": 0.5838052095130238,
+      "recall": 0.9683782091421416,
+      "f1": 0.7284503061705134,
+      "support": 3194
+    },
+    "personality disorder": {
+      "precision": 0.9410511363636364,
+      "recall": 0.48947173993350573,
+      "f1": 0.6439854191980559,
+      "support": 2707
+    },
+    "stress": {
+      "precision": 0.5403455062322327,
+      "recall": 0.8308675184936113,
+      "f1": 0.6548297336690075,
+      "support": 2974
+    },
+    "suicidal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2116
+    }
+  },
+  "accuracy_ci95": [
+    0.6051331035860553,
+    0.6180713714913595
+  ],
+  "macro_f1_ci95": [
+    0.546937627402368,
+    0.5581366294479692
+  ],
+  "n_train_labels": 641,
+  "fraction_pct": 1,
+  "fraction_ids_sha256": "8fc3de0408d12ac380efe5600b7c38eeb1b91659b427dc3f6f426cab080383b3",
+  "recipe": {
+    "epochs": 3,
+    "train_batch": 32,
+    "lr": 2e-05,
+    "warmup_frac": 0.1,
+    "max_length": 256
+  },
+  "canonical_seed": 42,
+  "single_seed_disclosed": true,
+  "seed_runs": {
+    "42": {
+      "run_name": "part3_bert_pct1_seed42",
+      "seed": 42,
+      "n_train_rows": 641,
+      "total_steps": 63,
+      "warmup_steps": 6,
+      "final_loss": 1.6958804321289063,
+      "loss_history": [
+        1.6958804321289063
+      ],
+      "val_class_spread": 7,
+      "torch": "2.11.0+cu128",
+      "transformers": "5.10.2",
+      "accelerate": "1.13.0",
+      "csv_path": "/content/drive/MyDrive/BSE/NLP-PROJECT/results/colab_runs/part3_bert_pct1_seed42.csv"
+    }
+  },
+  "provenance": {
+    "computed_at": "2026-06-18T21:47:11+00:00",
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018",
+    "split_seed": 42,
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

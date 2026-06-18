@@ -1,0 +1,112 @@
+{
+  "name": "part3_distill_stack_pct10",
+  "n": 20022,
+  "accuracy": 0.8756367995205274,
+  "macro_f1": 0.8696267154008156,
+  "weighted_f1": 0.8763652706431068,
+  "kappa": 0.8546470219789803,
+  "per_class": {
+    "anxiety": {
+      "precision": 0.9255474452554745,
+      "recall": 0.9496704613541043,
+      "f1": 0.9374537926955493,
+      "support": 3338
+    },
+    "bipolar": {
+      "precision": 0.9533059394844976,
+      "recall": 0.9490516920788398,
+      "f1": 0.9511740588893031,
+      "support": 2689
+    },
+    "depression": {
+      "precision": 0.7481146304675717,
+      "recall": 0.6604527296937417,
+      "f1": 0.7015558698727016,
+      "support": 3004
+    },
+    "normal": {
+      "precision": 0.9322355921469284,
+      "recall": 0.9217282404508453,
+      "f1": 0.9269521410579346,
+      "support": 3194
+    },
+    "personality disorder": {
+      "precision": 0.9749049429657795,
+      "recall": 0.9471739933505726,
+      "f1": 0.9608394228967585,
+      "support": 2707
+    },
+    "stress": {
+      "precision": 0.9262577532736044,
+      "recall": 0.9038332212508406,
+      "f1": 0.9149081007488087,
+      "support": 2974
+    },
+    "suicidal": {
+      "precision": 0.6322730799069046,
+      "recall": 0.7703213610586012,
+      "f1": 0.6945036216446527,
+      "support": 2116
+    }
+  },
+  "accuracy_ci95": [
+    0.8709919089002097,
+    0.8799320747178104
+  ],
+  "macro_f1_ci95": [
+    0.8649415217508079,
+    0.8738610447723097
+  ],
+  "technique": "distill",
+  "fraction_pct": 10,
+  "n_real_labels": 6407,
+  "recipe": {
+    "epochs": 3,
+    "train_batch": 32,
+    "lr": 2e-05,
+    "warmup_frac": 0.1,
+    "max_length": 256
+  },
+  "canonical_seed": 42,
+  "single_seed_disclosed": true,
+  "seed_runs": {
+    "42": {
+      "run_name": "part3_distill_stack_pct10_seed42",
+      "seed": 42,
+      "n_train_rows": 9103,
+      "total_steps": 855,
+      "warmup_steps": 85,
+      "final_loss": 0.28990720748901366,
+      "loss_history": [
+        1.89773681640625,
+        1.487059326171875,
+        0.9333047485351562,
+        0.6683786010742188,
+        0.4991442108154297,
+        0.47006576538085937,
+        0.4790205001831055,
+        0.40371952056884763,
+        0.38882797241210937,
+        0.4098551940917969,
+        0.3976432800292969,
+        0.33290931701660154,
+        0.32932464599609373,
+        0.29678787231445314,
+        0.29484439849853517,
+        0.2983733367919922,
+        0.28990720748901366
+      ],
+      "val_class_spread": 7,
+      "torch": "2.11.0+cu128",
+      "transformers": "5.10.2",
+      "accelerate": "1.13.0",
+      "csv_path": "/content/drive/MyDrive/BSE/NLP-PROJECT/results/colab_runs/part3_distill_stack_pct10_seed42.csv"
+    }
+  },
+  "provenance": {
+    "computed_at": "2026-06-18T19:04:34+00:00",
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018",
+    "split_seed": 42,
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

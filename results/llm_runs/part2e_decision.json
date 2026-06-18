@@ -1,0 +1,25 @@
+{
+  "winner": "part2_2e_distill_from_2c",
+  "candidate": "distill",
+  "decided_on": "validation",
+  "metric": "suicidal_recall",
+  "guardrail_acc_floor": 0.7339755275315271,
+  "val_metrics": {
+    "part2_2e_base_llmgen50": {
+      "accuracy": 0.7439755275315271,
+      "suicidal_recall": 0.44713526284701716
+    },
+    "part2_2e_suicidal_boost": {
+      "accuracy": 0.734423773255088,
+      "suicidal_recall": 0.4819846426461902
+    },
+    "part2_2e_distill_from_2c": {
+      "accuracy": 0.7654513672118867,
+      "suicidal_recall": 0.7058476077968104
+    },
+    "part2_2e_mentalbert": {
+      "accuracy": 0.7524659757772506,
+      "suicidal_recall": 0.44890726520968693
+    }
+  }
+}

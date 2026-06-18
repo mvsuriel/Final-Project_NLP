@@ -1,0 +1,12 @@
+{
+  "run_name": "part3_besteffort_roberta",
+  "model": "roberta-large",
+  "data": "gold",
+  "eval": "val",
+  "max_length": 512,
+  "lr": 1e-05,
+  "epochs": 3,
+  "n_train": 64069,
+  "final_loss": 0.5887816238403321,
+  "class_spread": 7
+}

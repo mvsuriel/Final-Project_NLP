@@ -1,0 +1,30 @@
+{
+  "content_sha256": "baa28bbb68dd600fa2ad604acaf98abc44f8689ed84b01e78d0e33e8aa47045f",
+  "n": 3062,
+  "n_gold": 32,
+  "n_pseudo": 3030,
+  "n_pool": 5000,
+  "n_converged": 4861,
+  "teacher": {
+    "model": "google/gemma-3-4b-it",
+    "candidate": "v2_direct",
+    "hash": "3a21817c83c1",
+    "val_accuracy": 0.6887755102040817
+  },
+  "self_consistency": {
+    "votes_max": 5,
+    "votes_win": 3,
+    "temperature": 0.7
+  },
+  "cap_per_class": 400,
+  "suicidal_floored": true,
+  "counts": {
+    "anxiety": 400,
+    "bipolar": 400,
+    "depression": 400,
+    "normal": 400,
+    "personality disorder": 400,
+    "stress": 400,
+    "suicidal": 630
+  }
+}

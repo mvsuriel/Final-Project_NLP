@@ -1,0 +1,29 @@
+{
+  "classes": [
+    "anxiety",
+    "bipolar",
+    "depression",
+    "normal",
+    "personality disorder",
+    "stress",
+    "suicidal"
+  ],
+  "label2id": {
+    "anxiety": 0,
+    "bipolar": 1,
+    "depression": 2,
+    "normal": 3,
+    "personality disorder": 4,
+    "stress": 5,
+    "suicidal": 6
+  },
+  "id2label": {
+    "0": "anxiety",
+    "1": "bipolar",
+    "2": "depression",
+    "3": "normal",
+    "4": "personality disorder",
+    "5": "stress",
+    "6": "suicidal"
+  }
+}

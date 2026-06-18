@@ -1,0 +1,71 @@
+{
+  "name": "part2_best_combo",
+  "n": 20022,
+  "accuracy": 0.7569673359304765,
+  "macro_f1": 0.7545749346548796,
+  "weighted_f1": 0.7600631229624053,
+  "kappa": 0.7160051020120981,
+  "per_class": {
+    "anxiety": {
+      "precision": 0.8493924837524724,
+      "recall": 0.9005392450569203,
+      "f1": 0.8742184091900538,
+      "support": 3338
+    },
+    "bipolar": {
+      "precision": 0.8968586387434555,
+      "recall": 0.6370397917441428,
+      "f1": 0.7449445531637312,
+      "support": 2689
+    },
+    "depression": {
+      "precision": 0.4701678060907396,
+      "recall": 0.5036617842876165,
+      "f1": 0.48633879781420764,
+      "support": 3004
+    },
+    "normal": {
+      "precision": 0.8854759196056124,
+      "recall": 0.7310582341891045,
+      "f1": 0.8008917852855428,
+      "support": 3194
+    },
+    "personality disorder": {
+      "precision": 0.9120631341600902,
+      "recall": 0.8965644625046176,
+      "f1": 0.90424739195231,
+      "support": 2707
+    },
+    "stress": {
+      "precision": 0.8031055900621118,
+      "recall": 0.8695359784801614,
+      "f1": 0.8350016144656118,
+      "support": 2974
+    },
+    "suicidal": {
+      "precision": 0.5555163905534015,
+      "recall": 0.7448015122873346,
+      "f1": 0.6363819907126994,
+      "support": 2116
+    }
+  },
+  "accuracy_ci95": [
+    0.7511225152332435,
+    0.7626610728198981
+  ],
+  "macro_f1_ci95": [
+    0.748984946665776,
+    0.7598979450599964
+  ],
+  "decided_on": "validation",
+  "winner": "part2_2e_distill_from_2c",
+  "candidate": "distill",
+  "selection_metric": "val suicidal recall (accuracy guardrail)",
+  "canonical_seed": 42,
+  "provenance": {
+    "computed_at": "2026-06-16T20:41:26+00:00",
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018",
+    "split_seed": 42,
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

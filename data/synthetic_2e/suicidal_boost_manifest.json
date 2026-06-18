@@ -1,0 +1,17 @@
+{
+  "content_sha256": "48125e2117322d42348d9238d6640eaee1ddbc4667958eb11e0ad7d4ffdf7c2a",
+  "n": 150,
+  "class": "suicidal",
+  "generator": "meta-llama/Llama-3.2-3B-Instruct",
+  "judge": "google/gemma-3-4b-it",
+  "prompt_version": "v2",
+  "idx_offset": 10000,
+  "dedup_cosine": 0.9,
+  "raw_quota": 450,
+  "counts": {
+    "raw_parsed": 451,
+    "dedup_kept": 451,
+    "judge_agree": 275,
+    "kept": 150
+  }
+}

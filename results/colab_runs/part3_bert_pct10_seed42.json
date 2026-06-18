@@ -1,0 +1,27 @@
+{
+  "run_name": "part3_bert_pct10_seed42",
+  "seed": 42,
+  "n_train_rows": 6407,
+  "total_steps": 603,
+  "warmup_steps": 60,
+  "final_loss": 0.20458229064941405,
+  "loss_history": [
+    1.839764404296875,
+    1.321792755126953,
+    0.8106855773925781,
+    0.5353918838500976,
+    0.40300559997558594,
+    0.3373233795166016,
+    0.33311614990234373,
+    0.3102463912963867,
+    0.2548718643188477,
+    0.24737197875976563,
+    0.22203041076660157,
+    0.20458229064941405
+  ],
+  "val_class_spread": 7,
+  "torch": "2.11.0+cu128",
+  "transformers": "5.10.2",
+  "accelerate": "1.13.0",
+  "csv_path": "/content/drive/MyDrive/BSE/NLP-PROJECT/results/colab_runs/part3_bert_pct10_seed42.csv"
+}

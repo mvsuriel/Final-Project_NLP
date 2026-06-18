@@ -1,0 +1,10 @@
+{
+  "name": "part0_soa_reference",
+  "external_reference": true,
+  "source": "Sevinc 2025 (LatentGLoss), Table I, BERT (Finetuned), 7-class",
+  "accuracy": 0.9483,
+  "note": "Published literature benchmark, NOT scored on our test set; same 7-class task but a different (merged/augmented) corpus, so the comparison is benchmark-level. The paper reports no kappa and no per-class numbers, so those are intentionally absent.",
+  "provenance": {
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

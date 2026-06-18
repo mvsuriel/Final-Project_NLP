@@ -1,0 +1,58 @@
+{
+  "name": "part1_majority_baseline",
+  "n": 20022,
+  "accuracy": 0.1667166117271002,
+  "macro_f1": 0.04082681017612525,
+  "weighted_f1": 0.047645552221323675,
+  "kappa": 0.0,
+  "per_class": {
+    "anxiety": {
+      "precision": 0.1667166117271002,
+      "recall": 1.0,
+      "f1": 0.28578767123287674,
+      "support": 3338
+    },
+    "bipolar": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2689
+    },
+    "depression": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3004
+    },
+    "normal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3194
+    },
+    "personality disorder": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2707
+    },
+    "stress": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2974
+    },
+    "suicidal": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2116
+    }
+  },
+  "provenance": {
+    "computed_at": "2026-06-18T17:33:04+00:00",
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018",
+    "split_seed": 42,
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

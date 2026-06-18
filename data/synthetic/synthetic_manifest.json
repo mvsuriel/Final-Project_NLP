@@ -1,0 +1,93 @@
+{
+  "content_sha256": "b04bb1668f7f3120a284fe6c2e58a17e4fd988e249763f8918f4979bd9f25abc",
+  "n": 1400,
+  "n_per_class_target": 200,
+  "generator": {
+    "model": "meta-llama/Llama-3.2-3B-Instruct",
+    "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+    "decoding": "sampled",
+    "temperature": 0.9,
+    "top_p": 0.95,
+    "max_new_tokens": 512,
+    "seed_scheme": "torch.manual_seed(SEED*1000003+first_idx) per batch",
+    "gen_prompt_version": "v2"
+  },
+  "judge": {
+    "model": "google/gemma-3-4b-it",
+    "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+    "decoding": "greedy",
+    "prompt": "2c frozen candidate (v2_direct, hash 3a21817c83c1) - professor-approved 2026-06-12, disclosures in plan 4d",
+    "confidence_recorded": true
+  },
+  "embedding_dedup": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "cosine_threshold": 0.9
+  },
+  "n_raw_parse_failures": 1337,
+  "topup_extra": {
+    "anxiety": 65,
+    "bipolar": 610,
+    "normal": 560,
+    "personality disorder": 780,
+    "suicidal": 75
+  },
+  "seed_source": "train_32.parquet (the frozen 32 only)",
+  "counts": {
+    "anxiety": {
+      "raw_parsed": 327,
+      "dedup_dropped": 0,
+      "judge_disagree": 118,
+      "judge_flagged": 0,
+      "accepted": 209,
+      "kept": 200
+    },
+    "bipolar": {
+      "raw_parsed": 871,
+      "dedup_dropped": 0,
+      "judge_disagree": 662,
+      "judge_flagged": 0,
+      "accepted": 209,
+      "kept": 200
+    },
+    "depression": {
+      "raw_parsed": 261,
+      "dedup_dropped": 0,
+      "judge_disagree": 45,
+      "judge_flagged": 0,
+      "accepted": 216,
+      "kept": 200
+    },
+    "normal": {
+      "raw_parsed": 823,
+      "dedup_dropped": 0,
+      "judge_disagree": 584,
+      "judge_flagged": 0,
+      "accepted": 239,
+      "kept": 200
+    },
+    "personality disorder": {
+      "raw_parsed": 1041,
+      "dedup_dropped": 0,
+      "judge_disagree": 795,
+      "judge_flagged": 0,
+      "accepted": 246,
+      "kept": 200
+    },
+    "stress": {
+      "raw_parsed": 263,
+      "dedup_dropped": 0,
+      "judge_disagree": 32,
+      "judge_flagged": 0,
+      "accepted": 231,
+      "kept": 200
+    },
+    "suicidal": {
+      "raw_parsed": 338,
+      "dedup_dropped": 0,
+      "judge_disagree": 130,
+      "judge_flagged": 0,
+      "accepted": 208,
+      "kept": 200
+    }
+  }
+}

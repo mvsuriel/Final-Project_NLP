@@ -1,0 +1,16 @@
+{
+  "name": "part1_random_baseline",
+  "n": 20022,
+  "accuracy": 0.14536549795225254,
+  "macro_f1": 0.14291192404476993,
+  "accuracy_std": 0.0024380966252467873,
+  "macro_f1_std": 0.0024312165684302893,
+  "analytic_accuracy": 0.14530178130127192,
+  "n_simulations": 1000,
+  "provenance": {
+    "computed_at": "2026-06-18T17:33:04+00:00",
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018",
+    "split_seed": 42,
+    "test_ids_sha256": "0da3f09e8a2b5cc70219fabb0d1f3a8691affa8248943a2dc1c8f6f312e96781"
+  }
+}

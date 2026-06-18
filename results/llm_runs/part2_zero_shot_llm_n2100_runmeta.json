@@ -1,0 +1,11 @@
+{
+  "model": "google/gemma-3-4b-it",
+  "model_revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+  "transformers_version": "5.10.2",
+  "decoding": "greedy",
+  "candidate": "v2_direct",
+  "format": "direct",
+  "max_new_tokens": 64,
+  "batch_size": 32,
+  "prompt_hash": "3a21817c83c1"
+}

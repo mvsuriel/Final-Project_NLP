@@ -1,0 +1,94 @@
+{
+  "seed": 42,
+  "pivots": [
+    "de",
+    "fr",
+    "es",
+    "ru"
+  ],
+  "eda_params": {
+    "alpha": 0.05,
+    "num_aug": 4,
+    "protected_words": [
+      "aint",
+      "arent",
+      "cannot",
+      "cant",
+      "couldnt",
+      "dead",
+      "death",
+      "didnt",
+      "die",
+      "died",
+      "dies",
+      "doesnt",
+      "dont",
+      "dying",
+      "end",
+      "ending",
+      "hadnt",
+      "hasnt",
+      "havent",
+      "isnt",
+      "kill",
+      "killed",
+      "killing",
+      "kills",
+      "life",
+      "mustnt",
+      "neednt",
+      "neither",
+      "never",
+      "no",
+      "nor",
+      "not",
+      "shouldnt",
+      "suicidal",
+      "suicide",
+      "wasnt",
+      "werent",
+      "wont",
+      "wouldnt"
+    ]
+  },
+  "counts": {
+    "backtranslation": {
+      "generated": 128,
+      "dropped_identical": 6,
+      "effective": 122,
+      "effective_per_class": {
+        "stress": 20,
+        "depression": 20,
+        "anxiety": 20,
+        "personality disorder": 16,
+        "bipolar": 16,
+        "suicidal": 16,
+        "normal": 14
+      },
+      "n_train_with_originals": 154
+    },
+    "eda": {
+      "generated": 128,
+      "dropped_identical": 3,
+      "effective": 125,
+      "effective_per_class": {
+        "stress": 20,
+        "depression": 20,
+        "anxiety": 20,
+        "normal": 17,
+        "bipolar": 16,
+        "personality disorder": 16,
+        "suicidal": 16
+      },
+      "n_train_with_originals": 157
+    }
+  },
+  "fingerprints": {
+    "backtranslation": "0940b9d02cefcf2e6ba251c015b2b2a13e5152203731fbbd2be7310a158b8a2b",
+    "eda": "cca8292938e188f505768105d438770d628fbb08163de4497715de66f180013a"
+  },
+  "source": {
+    "file": "train_32.parquet",
+    "ids_sha256": "58a533fe692478902d5cfd2a53b68abc23e3ad78efa60686fe1f9e8c5552f939"
+  }
+}

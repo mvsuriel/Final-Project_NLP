@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "allocation": {
+    "anxiety": 5,
+    "normal": 5,
+    "depression": 5,
+    "stress": 5,
+    "personality disorder": 4,
+    "bipolar": 4,
+    "suicidal": 4
+  },
+  "realized_counts": {
+    "stress": 5,
+    "normal": 5,
+    "depression": 5,
+    "anxiety": 5,
+    "bipolar": 4,
+    "personality disorder": 4,
+    "suicidal": 4
+  },
+  "selected_ids": [
+    1700,
+    12775,
+    13689,
+    13789,
+    17770,
+    20056,
+    28054,
+    32946,
+    41346,
+    42358,
+    42515,
+    50015,
+    51271,
+    53389,
+    53503,
+    55167,
+    58947,
+    65887,
+    66317,
+    66438,
+    67933,
+    79219,
+    82127,
+    89445,
+    91461,
+    92988,
+    94517,
+    95070,
+    96297,
+    99586,
+    99766,
+    100856
+  ],
+  "ids_sha256": "58a533fe692478902d5cfd2a53b68abc23e3ad78efa60686fe1f9e8c5552f939",
+  "source": {
+    "file": "train.parquet",
+    "split_seed": 42,
+    "dataset_revision": "186902250e947738f5cb6668808431c56f75b018"
+  }
+}
