@@ -1,0 +1,32 @@
+# Human-readable display names for the evaluation ladder in notebook 00. Keys are the
+# results/metrics/*.json experiment ids; values are the labels shown in tables and figures.
+model_names:
+  part0_soa_reference: State-of-the-Art (Reference)
+  part1_random_baseline: Random Baseline
+  part1_majority_baseline: Majority Baseline
+  part1_rule_based: Lexicon (Hand-crafted)
+  part1_rule_based_mined: Lexicon (Mined)
+  part2_bert_32: BERT (32 samples)
+  part2_bert_eda_160: BERT (EDA 160)
+  part2_bert_synth_only: BERT (Synth Only)
+  part2_bert_backtrans: BERT (Backtranslation)
+  part2_zero_shot_llm_n2100: Zero-Shot LLM
+  part2_bert_llmgen_50: BERT (LLM Gen 50)
+  part2_bert_llmgen_200: BERT (LLM Gen 200)
+  part2_best_combo: BERT (Best Combo)
+  part3_bert_pct1: BERT (1% Data)
+  part3_bert_pct10: BERT (10% Data)
+  part3_synth_stack_pct1: Synth Stack (1%)
+  part3_synth_stack_pct10: Synth Stack (10%)
+  part3_synth_stack_pct25: Synth Stack (25%)
+  part3_synth_stack_pct50: Synth Stack (50%)
+  part3_synth_stack_pct75: Synth Stack (75%)
+  part3_synth_stack_pct100: Synth Stack (100%)
+  part3_distill_stack_pct1: Distill Stack (1%)
+  part3_distill_stack_pct10: Distill Stack (10%)
+  part3_distill_stack_pct100: Distill Stack (100%)
+  part3_bert_pct25: BERT (25% Data)
+  part3_bert_pct50: BERT (50% Data)
+  part3_bert_pct75: BERT (75% Data)
+  part3_bert_pct100: BERT (100% Data)
+  part3_distill_stack_pct100: Distill Stack (100%)
